@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>Switch-Button-Bottom.png</file>
+        <file>Switch-Button-Right.png</file>
+        <file>Switch-Button-Top.png</file>
+        <file>Switch-Button-Left.png</file>
+        <file>Switch-Button-SL.png</file>
+        <file>Switch-Button-SR.png</file>
+        <file>Switch-Button-Minus.png</file>
+        <file>Switch-Button-Plus.png</file>
+        <file>Switch-Control-Press.png</file>
+        <file>Switch-Control-Up.png</file>
+        <file>Switch-Control-Right.png</file>
+        <file>Switch-Control-Down.png</file>
+        <file>Switch-Control-Left.png</file>
+    </qresource>
+</RCC>
