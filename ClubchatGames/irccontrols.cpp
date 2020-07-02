@@ -181,7 +181,9 @@ void IrcControls::change1on1Person(QString newPerson)
 
 void IrcControls::handleVoteTimer()
 {
+    _currentTimeLeft--;
     if (_currentTimeLeft == 0) {
+        emit sendTimerInfo(_currentTimeLeft, _totalTime, false);
         int biggestIndex = 0;
         int lastValue = 0;
         for (int i = 0; i < _currentVotes.count(); i++) {
@@ -224,7 +226,6 @@ void IrcControls::handleVoteTimer()
         //_currentVotes.resize(8);
         _currentVotes.fill(0);
     }
-    _currentTimeLeft--;
     emit sendCurrentVotes(_currentVotes);
     emit sendTimerInfo(_currentTimeLeft, _totalTime, false);
 }
