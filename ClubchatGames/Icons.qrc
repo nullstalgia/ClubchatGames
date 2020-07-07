@@ -13,5 +13,7 @@
         <file>Switch-Control-Right.png</file>
         <file>Switch-Control-Down.png</file>
         <file>Switch-Control-Left.png</file>
+        <file>spade.png</file>
     </qresource>
+    <qresource prefix="/"/>
 </RCC>
