@@ -7,7 +7,7 @@ Compilation:
 
 - Was built with QMake 3.1, Qt 5.15.0 on Manjaro (Arch-based) Linux.
 
-Dependancies:
+Dependencies:
 
 - `qt5-base`,  `qt5-serialport`, `libcommuni-3.5.0`
 
